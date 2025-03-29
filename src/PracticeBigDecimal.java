@@ -4,9 +4,9 @@ import java.math.RoundingMode;
 public class PracticeBigDecimal {
     public static void main(String[] args) {
         // Create BigDecimal instances with specific values.
-        BigDecimal number = new BigDecimal(4.2545);
-        BigDecimal positiveNumber = new BigDecimal(1.2345);
-        BigDecimal negativeNumber = new BigDecimal(-45.67);
+        BigDecimal number = new BigDecimal("4.2545");
+        BigDecimal positiveNumber = new BigDecimal("1.2345");
+        BigDecimal negativeNumber = new BigDecimal("-45.67");
 
         // Print the rounded value of 'number'.
         System.out.println(roundedBigdecimal(number));
